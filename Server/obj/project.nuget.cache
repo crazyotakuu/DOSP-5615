@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cYiYLLwmU2zqrl5DLukbC0a0Wtx7f6ZI7QYBQS/lzyGRQMSxw7WCfQIRmsp9s5UM+iSORZZG9wMG2vnDESg//Q==",
+  "success": true,
+  "projectFilePath": "D:\\MSCISE - UF\\Semester-1\\DOSP\\Project-1\\latest\\Server\\Server.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\muday\\.nuget\\packages\\fsharp.core\\7.0.400\\fsharp.core.7.0.400.nupkg.sha512"
+  ],
+  "logs": []
+}
