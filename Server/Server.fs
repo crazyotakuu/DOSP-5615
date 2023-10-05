@@ -1,4 +1,4 @@
-﻿open System
+open System
 open System.Net
 open System.Net.Sockets
 open System.IO
@@ -91,11 +91,6 @@ let handleClient (client : TcpClient) (clients : List<TcpClient>) (server : TcpL
             writer.WriteLine("-4") 
             writer.Flush()
             processClient()
-        | _ ->
-            Console.WriteLine("Responding to client " + i.ToString() + " with result: -100")
-            writer.WriteLine("-1") 
-            writer.Flush()
-            processClient()
 
     processClient()
 
@@ -121,7 +116,6 @@ let main argv =
 
     for client in clients do
         client.Close()
-    // Console.WriteLine("Server Stopped and number of clients are " + clients.Count.ToString()) // probably all connections are closed but list just has previous elements
     server.Stop()
 
     0
